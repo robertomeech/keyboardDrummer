@@ -148,7 +148,7 @@ header {
       padding-top: 25px; } }
   header h1 {
     font-size: 50px;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Cinzel', serif;
     font-weight: 700; }
     @media (max-width: 500px) {
       header h1 {
@@ -175,7 +175,8 @@ header {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin: 0 300px; }
+  margin: 0 300px;
+  font-family: 'Quicksand', sans-serif; }
   @media (max-width: 1000px) {
     .keys {
       margin: 0 150px; } }
@@ -217,12 +218,12 @@ header {
       padding: 0.5rem 0.5rem; } }
 
 .playing {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  border-color: purple;
-  -webkit-box-shadow: 0 0 10px green;
-  box-shadow: 0 0 10px green; }
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  border-color: white;
+  -webkit-box-shadow: 0 0 10px white;
+  box-shadow: 0 0 10px white; }
 
 footer {
   text-align: center;
@@ -235,4 +236,6 @@ footer {
   transform: translateX(-50%); }
   footer h4 {
     color: white;
-    width: 100%; }
+    width: 100%;
+    font-family: 'Cinzel', serif;
+    font-weight: 400; }
